@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ishant Jain</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,200..800&family=Imperial+Script&family=Redaction+10:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav>
+        <span class="logo">Ishant Jain - #Mr.COOL</span>
+        <ul>
+            <li><a href="#home">home</a></li>
+            <li><a href="#about">about</a></li>
+            <li><a href="#projects">projects</a></li>
+            <li><a href="#contact">contact</a></li>
+        </ul>
+        <button id="theme" aria-label="Switch light or dark mode"></button>
+    </nav>
+    <header class="hero" id="home">
+        <h1>Ishant Jain</h1>
+        <p>Hi, i'm <mark>Ishant Jain</mark>, a simple boy from <mark>Delhi, India</mark> - who wants to learn as many things as he can in his teenage. I'm making this site to <mark>let you guys know who am i</mark> and <mark>what i'm learning</mark>.</p>
+        <div class="photo"><img src="IMG_20261018_205844_193.jpg" alt="Best person i ever met"></div>
+        <div class="photo"><img src="IMG_20261024_123731.jpg" alt="Winning a side quest"></div>
+    </header>
+
+    <section id="about">
+        <h2>About Me</h2>
+        <p>Hey there, i'm a 15 years old teenager who's currently in grade 11th while pursuing commerce in stream and trying to learn as many things as he can :)</p>
+        <P>I currently study at DBRA CMSHRI, Surajmal Vihar. I live in shahdara, Delhi. I speak hindi, English, and <mark>a little French(Larp)</mark>. My favourite hobbies are <mark>Learning</mark>, <mark>Networking</mark>, <mark>Sleeping</mark>, etc.</P>
+        <div class="photo"><img src="DSCN0092.JPG" alt="Me coming in a solo pic :)"></div>
+    </section>
+
+    <section id="projects">
+        <h2>Projects</h2>
+        <div class="projects">
+            <div class="project">
+                <h3>Project One - FinX Mayhem</h3>
+                <p>It was my first website that i made for my school finance club which i started some time ago. I made it completely with help of AI.</p>
+            </div>
+            <div class="project">
+                <h3>Project Two - Networking Tips</h3>
+                <p>This was a website that i made for Boba bash and it was the only website that was completely build up by me.</p>
+            </div>
+            <div class="project">
+                <h3>Project Three - Cold Cases</h3>
+                <p>This is a website where one can solve cool mystery cases.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact">
+        <h2>Contact</h2>
+        <p>Email me at <a href="mailto:ishantjain0804@gmail.com">ishantjain0804@gmail.com</a> or find me on <a href="https://github.com/Ishanthere-1">GitHub</a>.</p>
+        <P>You can also find me on linked in via <a href="https://www.linkedin.com/in/ishantjain0804/">ishantjain0804</a>.</P>
+    </section>
+    <footer>© 2026 Ishant Jain</footer>
+
+    <script>
+        var root = document.documentElement;
+var btn = document.getElementById("theme");
+try { var saved = localStorage.getItem("theme"); if (saved) root.setAttribute("data-theme", saved); } catch (e) {}
+btn.addEventListener("click", function () {
+  var dark = root.getAttribute("data-theme") === "dark" ||
+    (!root.getAttribute("data-theme") && matchMedia("(prefers-color-scheme: dark)").matches);
+  var next = dark ? "light" : "dark";
+  root.setAttribute("data-theme", next);
+  try { localStorage.setItem("theme", next); } catch (e) {}
+});
+    </script>
+</body>
+</html>
