@@ -21,74 +21,35 @@
 
 ---
 
-## About the Project
+1. About the Project
 
-This is my personal website, built to introduce myself, it showcase the things I work on, and documents my learning journey. I believe in learning by experimenting and consistently improving on the go. This website is one of those experiments. It is a space that will evolve as I learn new skills, build projects, and explore different interests.
+This is a personal website which is made to record my learning journey, achievements, and most importantly my story. This isn't just like any other websites. It is made with pure love from the bottom of my heart and inspired by a person whom i know is very sweet. The recordings that i am going to make will be recorded in any of these sections:
+- Personal Introduction: Solves who i am and some pictures for identification.
+- About Me: Info. about my journey, background and interests.
+- Projects: A place where most of my journey will be recorded.
+- Contact: Links to my GitHub, LinkedIn, and email.
+- Dark / Light Mode: Chose the theme you like b/w Dark and Light.
 
-It's a work in progress, just like me. And i'm going to add a lot of things in it like a personal blog page and a networking area.
-
-## Features
-
-- **Personal Introduction:** A little introduction and photographs.
-- **About Me:** Information about my background, interests, and current learning journey.
-- **Projects:** Some of the projects I've built in hackclub.
-- **Contact:** Links to my GitHub, LinkedIn, and email.
-- **Dark / Light Mode:** Switch between themes with a theme toggle.
-
-## It is Built With
+2. It is Built With
 
 | Technology   | Purpose                              |
 | ------------ | ------------------------------------ |
-| HTML5        | Website structure                    |
+| HTML5        | Foundation                           |
 | CSS3         | Styling, layouts, and responsiveness |
-| JavaScript   | Theme switching and interactivity    |
-| Google Fonts | Typography                           |
+| JavaScript   | Toggle thing                         |
 | Vercel       | Deployment and hosting               |
 
-## Getting Started
+3. Getting Started
 
-Want to explore the project or run it locally? Follow these steps.
+If you want to run this locally in your desktop/laptop, then just follow these:
+STEP 1: Go to my git repo, link is https://github.com/Ishanthere-1/my.web.ishant/tree/main
+STEP 2: Clone it and download
+STEP 3: Open it with VS CODE EDITOR
+STEP 4: Open index.html
+Step 5: Right click anywhere empty on the index.html file and choose the option "open with live server" and you'll run it. 
+DONE DONE. HAHA
 
-### Prerequisites
-
-You'll need:
-
-- A modern web browser.
-- [Visual Studio Code](https://code.visualstudio.com/) (recommended).
-- Git installed on your computer.
-- An internet connection for externally hosted fonts.
-
-No additional frameworks or npm packages are currently required.
-
-### Installation
-
-**1. Clone the repository**
-
-```bash
-git clone https://github.com/Ishanthere-1/my.web.ishant.git
-```
-
-**2. Navigate to the project directory**
-
-```bash
-cd my.web.ishant
-```
-
-**3. Open the project**
-
-Open the folder in Visual Studio Code:
-
-```bash
-code .
-```
-
-### Running the Project
-
-You can simply open `index.html` in your browser.
-
-Alternatively, install the Live Server extension in VS Code, right-click `index.html`, and select **Open with Live Server**.
-
-## Project Structure
+4. Project Structure
 
 ```text
 my.web.ishant/
@@ -106,21 +67,18 @@ my.web.ishant/
 └── README.md
 ```
 
-## Current Projects
+5. Current Projects
 
-Some projects featured on my website:
+Three projects currently at my website are:
+- NETWORKING TIPS
+- FINX MAYHEM
+- COLD CASES
 
-- **FinX Mayhem:** A website created for my school's finance club.
-- **Networking Tips:** A website built for Boba Bash.
-- **Cold Cases:** An interactive mystery-solving website which is going to expand more now.
+6. Contributing
 
-## Contributing
+This is a personal project but anyone can suggest for improvements in it through the contact details i provided. I would be glad if anyone gave me feedbacks.
 
-This is primarily a personal project, but suggestions, feedback, and ideas are always welcome.
-
-If you spot something that could be improved, feel free to open an issue or reach out.
-
-## Contact
+7. Contact
 
 \<p>
 &#x20; \<a href="[https://github.com/Ishanthere-1](https://github.com/Ishanthere-1)">GitHub\</a> •
